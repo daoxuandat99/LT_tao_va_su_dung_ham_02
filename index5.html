@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(num1, num2, num3) {
+        if (num1 > num2 && num1 > num3) {
+            alert("số lớn nhất là :" + num1);
+        } else if (num2 > num1 && num2 > num3) {
+            alert("số lớn nhất là :" + num2);
+        } else {
+            alert("số lớn nhất là :" + num3);
+        }
+    }
+
+    let num1 = parseFloat(prompt("nhập:"));
+    let num2 = parseFloat(prompt("nhập:"));
+    let num3 = parseFloat(prompt("nhập:"));
+    check(num1, num2, num3);
+</script>
+</body>
+</html>
